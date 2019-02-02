@@ -15,7 +15,7 @@ public class DemoController {
     public String index(
             @RequestParam(value = "timezone", required = false) String type
     ) throws Exception {
-        Thread.sleep(45*1000L);
+        Thread.sleep(40*1000L);
         return "test";
     }
 }
